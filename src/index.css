@@ -1,13 +1,24 @@
-body {
+*{
+  box-sizing: border-box;
+}
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 16px;
+  font-family: calibri;
+  background-image: -webkit-linear-gradient(top left,#5cc8ff 0,#d63c6b);
+  background-image: -webkit-gradient(linear,left top,right bottom,from(#5cc8ff),to(#d63c6b));
+  background-image: -o-linear-gradient(top left,#5cc8ff 0,#d63c6b 100%);
+  background-image: linear-gradient(to bottom right,#5cc8ff 0,#d63c6b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.mainDiv{float:left; width: 100%; padding-top: 50px;}
+.custom-container{max-width: 1400px; margin: 0 auto;}
+.fullWidth{float:left; width: 100%;}
+.dataListing{margin-bottom: 10px; background: rgba(255, 255, 255, 0.6); padding: 15px;}
+h2{cursor: pointer;}
+.btn-back{height: 40px; padding:5px; max-width: 200px; width: 100%; cursor: pointer; border: 0;transition: 0.3s ease-in-out;}
+.btn-back:hover{background: #ddd;}
+.mb-4{margin-bottom: 40px;}
+.text-center{text-align: center;}
